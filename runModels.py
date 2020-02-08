@@ -12,13 +12,13 @@ from sklearn.decomposition import LatentDirichletAllocation
 import pickle as pkl
 
 # these are the sentiment analysis models
-model1 = pkl.load(open("model1.p", "rb"))
-model2 = pkl.load(open("model2.p", "rb"))
-model3 = pkl.load(open("model3.p", "rb"))
-model4 = pkl.load(open("model4.p", "rb"))
-model5 = pkl.load(open("model5.p", "rb"))
-model6 = pkl.load(open("model6.p", "rb"))
-model7 = pkl.load(open("model7.p", "rb"))
+model1 = pkl.load(open("models/model1.p", "rb"))
+model2 = pkl.load(open("models/model2.p", "rb"))
+model3 = pkl.load(open("models/model3.p", "rb"))
+model4 = pkl.load(open("models/model4.p", "rb"))
+model5 = pkl.load(open("models/model5.p", "rb"))
+model6 = pkl.load(open("models/model6.p", "rb"))
+model7 = pkl.load(open("models/model7.p", "rb"))
 
 # returns vader polarity scores
 vader = SentimentIntensityAnalyzer()
